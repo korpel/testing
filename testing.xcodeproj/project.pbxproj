@@ -13,6 +13,7 @@
 		AA8AEDE221C6BB4900474F19 /* testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8AEDE021C6BB4900474F19 /* testing.xcdatamodeld */; };
 		AA8AEDE421C6BB4B00474F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8AEDE321C6BB4B00474F19 /* Assets.xcassets */; };
 		AA8AEDE721C6BB4B00474F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8AEDE521C6BB4B00474F19 /* LaunchScreen.storyboard */; };
+		AA8AEDEF21C6BD7B00474F19 /* SearchDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AEDEE21C6BD7B00474F19 /* SearchDisplayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA8AEDE321C6BB4B00474F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8AEDE621C6BB4B00474F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8AEDE821C6BB4B00474F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8AEDEE21C6BD7B00474F19 /* SearchDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDisplayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AA8AEDD921C6BB4900474F19 /* AppDelegate.swift */,
 				AA8AEDDB21C6BB4900474F19 /* ViewController.swift */,
 				AA8AEDDD21C6BB4900474F19 /* Main.storyboard */,
+				AA8AEDEE21C6BD7B00474F19 /* SearchDisplayController.swift */,
 				AA8AEDE321C6BB4B00474F19 /* Assets.xcassets */,
 				AA8AEDE521C6BB4B00474F19 /* LaunchScreen.storyboard */,
 				AA8AEDE821C6BB4B00474F19 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8AEDEF21C6BD7B00474F19 /* SearchDisplayController.swift in Sources */,
 				AA8AEDDC21C6BB4900474F19 /* ViewController.swift in Sources */,
 				AA8AEDDA21C6BB4900474F19 /* AppDelegate.swift in Sources */,
 				AA8AEDE221C6BB4900474F19 /* testing.xcdatamodeld in Sources */,

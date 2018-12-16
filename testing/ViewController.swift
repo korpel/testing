@@ -22,7 +22,9 @@ class ViewController: UIViewController, UISearchResultsUpdating {
         search.searchResultsUpdater = self
         search.obscuresBackgroundDuringPresentation = false
         search.searchBar.placeholder = "Type something here to search"
-        navigationItem.searchController = search    }
+        navigationItem.searchController = search
+        
+    }
 
 
 }
