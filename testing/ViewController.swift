@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
-        guard let text = searchController.searchBar.text else { return }
+        guard searchController.searchBar.text != nil else { return }
 
     }
     
