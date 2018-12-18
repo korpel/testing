@@ -10,6 +10,8 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+    var someValues = ["antonis","kwstas", "panagiwta","dimitra"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
