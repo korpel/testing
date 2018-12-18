@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    var someValues = ["antonis","kwstas", "panagiwta","dimitra"]
+    var someValues = ["     H    ","MARIA", "ZARRA","EINAI", "MIA", "KAVLIARA"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,7 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 2
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,6 +40,7 @@ class TableViewController: UITableViewController {
 
         let valueName = someValues[indexPath.row]
         cell.textLabel?.text = valueName
+        cell.textLabel?.textColor = UIColor.white
         cell.backgroundColor = UIColor.red
 
         return cell
