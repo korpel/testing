@@ -37,11 +37,13 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "someCell", for: indexPath)
+        let cell2 = tableView.dequeueReusableCell(withIdentifier: "secondCell", for: indexPath)
+
 
         let valueName = someValues[indexPath.row]
+        cell2.textLabel?.text = "second cell \(valueName)"
         cell.textLabel?.text = valueName
-        cell.textLabel?.textColor = UIColor.white
-        cell.backgroundColor = UIColor.red
+        cell.textLabel?.textColor = UIColor.red
 
         return cell
     }
